@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="345" it="0" lt="345" ct="311" ts="1529353648496" s="true" lb="Get Attachment" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="22" it="0" lt="21" ct="0" ts="1529353648847" s="true" lb="Get Automation Job" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1529353648869" s="true" lb="Get Test Log" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="36" it="0" lt="0" ct="36" ts="1529353648894" s="false" lb="Get Login" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: api.qasymphoy.com: nodename nor servname provided, or not known" tn="Access Api 1-1" dt="text" by="2355" sby="0" ng="1" na="2"/>
+<httpSample t="3002" it="0" lt="2980" ct="304" ts="1529353648496" s="true" lb="Get Software Testing Tools" rc="200" rm="OK" tn="Test Website 2-1" dt="text" by="100729" sby="185" ng="1" na="1"/>
+<httpSample t="934" it="0" lt="854" ct="466" ts="1529353651499" s="true" lb="Get Support Page" rc="200" rm="OK" tn="Test Website 2-1" dt="text" by="58414" sby="131" ng="1" na="1"/>
+<httpSample t="2230" it="0" lt="2111" ct="14" ts="1529353652434" s="true" lb="Get Sign In Page" rc="200" rm="OK" tn="Test Website 2-1" dt="text" by="945312" sby="241" ng="1" na="1"/>
+<httpSample t="17" it="0" lt="0" ct="17" ts="1529353654665" s="false" lb="Get Submit a Ticket Page" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: support.qsymphony.com: nodename nor servname provided, or not known" tn="Test Website 2-1" dt="text" by="2359" sby="0" ng="1" na="1"/>
+
+</testResults>

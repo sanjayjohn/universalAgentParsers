@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="10" result="Failed" total="10" passed="0" failed="0" inconclusive="0" skipped="0"
+          asserts="0" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-06-14 14:51:15Z"
+          end-time="2018-06-14 14:51:51Z" duration="35.693034">
+    <command-line><![CDATA[nunit3-console  video-recorder.dll ]]></command-line>
+    <test-suite type="Assembly" id="0-1013"
+                name="C:\Users\Sanjay\Documents\automateSelenium\video-recorder\bin\Debug\video-recorder.dll"
+                fullname="C:\Users\Sanjay\Documents\automateSelenium\video-recorder\bin\Debug\video-recorder.dll"
+                runstate="Runnable" testcasecount="10" result="Failed" duration="34.904761" total="10" passed="0"
+                failed="0" inconclusive="0" skipped="0" asserts="0" site="Child">
+        <properties>
+            <property name="_PID" value="7696"/>
+            <property name="_APPDOMAIN" value="domain-"/>
+        </properties>
+        <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="Namespace" id="0-1014" name="video_recorder" fullname="video_recorder" runstate="Runnable"
+                    testcasecount="10" result="Failed" duration="34.896344" total="10" passed="0" failed="0"
+                    inconclusive="0" skipped="0" asserts="0" site="Child">
+            <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="TestFixture" id="0-1000" name="FfmpegWrapperTests"
+                        fullname="video_recorder.FfmpegWrapperTests" classname="video_recorder.FfmpegWrapperTests"
+                        runstate="Runnable" testcasecount="6" result="Failed" duration="0.054037" total="6" passed="0"
+                        failed="0" inconclusive="0" skipped="0" asserts="0" site="SetUp">
+                <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-case id="0-1001" name="TestCaptureCompressedVideo"
+                           fullname="video_recorder.FfmpegWrapperTests.TestCaptureCompressedVideo"
+                           methodname="TestCaptureCompressedVideo" classname="video_recorder.FfmpegWrapperTests"
+                           runstate="Runnable" result="Failed" label="Error" duration="0.029870" asserts="0">
+                    <failure>
+                        <message>
+                            <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                        <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at video_recorder.FfmpegWrapperTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\FfmpegWrapperTests.cs:line 20]]></stack-trace>
+                    </failure>
+                </test-case>
+                <test-case id="0-1002" name="TestCaptureRawVideo"
+                           fullname="video_recorder.FfmpegWrapperTests.TestCaptureRawVideo"
+                           methodname="TestCaptureRawVideo" classname="video_recorder.FfmpegWrapperTests"
+                           runstate="Runnable" result="Failed" label="Error" duration="0.002020" asserts="0">
+                    <failure>
+                        <message>
+                            <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                        <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at video_recorder.FfmpegWrapperTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\FfmpegWrapperTests.cs:line 20]]></stack-trace>
+                    </failure>
+                </test-case>
+                <test-case id="0-1003" name="TestCaptureRawVideoAndCompress"
+                           fullname="video_recorder.FfmpegWrapperTests.TestCaptureRawVideoAndCompress"
+                           methodname="TestCaptureRawVideoAndCompress" classname="video_recorder.FfmpegWrapperTests"
+                           runstate="Runnable" result="Failed" label="Error" duration="0.001941" asserts="0">
+                    <failure>
+                        <message>
+                            <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                        <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at video_recorder.FfmpegWrapperTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\FfmpegWrapperTests.cs:line 20]]></stack-trace>
+                    </failure>
+                </test-case>
+                <test-case id="0-1004" name="TestGetVideoDetails"
+                           fullname="video_recorder.FfmpegWrapperTests.TestGetVideoDetails"
+                           methodname="TestGetVideoDetails" classname="video_recorder.FfmpegWrapperTests"
+                           runstate="Runnable" result="Failed" label="Error" duration="0.001892" asserts="0">
+                    <failure>
+                        <message>
+                            <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                        <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at video_recorder.FfmpegWrapperTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\FfmpegWrapperTests.cs:line 20]]></stack-trace>
+                    </failure>
+                </test-case>
+                <test-case id="0-1006" name="TestTrimCompressedVideo"
+                           fullname="video_recorder.FfmpegWrapperTests.TestTrimCompressedVideo"
+                           methodname="TestTrimCompressedVideo" classname="video_recorder.FfmpegWrapperTests"
+                           runstate="Runnable" result="Failed" label="Error" duration="0.001931" asserts="0">
+                    <failure>
+                        <message>
+                            <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                        <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at video_recorder.FfmpegWrapperTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\FfmpegWrapperTests.cs:line 20]]></stack-trace>
+                    </failure>
+                </test-case>
+                <test-case id="0-1005" name="TestTrimRawVideo"
+                           fullname="video_recorder.FfmpegWrapperTests.TestTrimRawVideo" methodname="TestTrimRawVideo"
+                           classname="video_recorder.FfmpegWrapperTests" runstate="Runnable" result="Failed"
+                           label="Error" duration="0.001915" asserts="0">
+                    <failure>
+                        <message>
+                            <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                        <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at video_recorder.FfmpegWrapperTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\FfmpegWrapperTests.cs:line 20]]></stack-trace>
+                    </failure>
+                </test-case>
+            </test-suite>
+            <test-suite type="TestFixture" id="0-1007" name="ProcessHandlerTests"
+                        fullname="video_recorder.ProcessHandlerTests" classname="video_recorder.ProcessHandlerTests"
+                        runstate="Runnable" testcasecount="2" result="Passed" duration="34.828123" total="2" passed="0"
+                        failed="0" inconclusive="0" skipped="0" asserts="0">
+                <test-case id="0-1008" name="TestRunInBlocking"
+                           fullname="video_recorder.ProcessHandlerTests.TestRunInBlocking"
+                           methodname="TestRunInBlocking" classname="video_recorder.ProcessHandlerTests"
+                           runstate="Runnable" result="Passed" duration="0.033771" asserts="1"/>
+                <test-case id="0-1009" name="TestRunInNonBlocking"
+                           fullname="video_recorder.ProcessHandlerTests.TestRunInNonBlocking"
+                           methodname="TestRunInNonBlocking" classname="video_recorder.ProcessHandlerTests"
+                           runstate="Runnable" result="Passed" duration="34.793106" asserts="1"/>
+            </test-suite>
+            <test-suite type="Namespace" id="0-1015" name="Tests" fullname="video_recorder.Tests" runstate="Runnable"
+                        testcasecount="2" result="Failed" duration="0.009288" total="2" passed="0" failed="0"
+                        inconclusive="0" skipped="0" asserts="0" site="Child">
+                <failure>
+                    <message><![CDATA[One or more child tests had errors]]></message>
+                </failure>
+                <test-suite type="TestFixture" id="0-1010" name="VideoRecorderTests"
+                            fullname="video_recorder.Tests.VideoRecorderTests"
+                            classname="video_recorder.Tests.VideoRecorderTests" runstate="Runnable" testcasecount="2"
+                            result="Failed" duration="0.008983" total="2" passed="0" failed="0" inconclusive="0"
+                            skipped="0" asserts="0" site="SetUp">
+                    <failure>
+                        <message><![CDATA[One or more child tests had errors]]></message>
+                    </failure>
+                    <test-case id="0-1012" name="TestDumpCompressedVideo"
+                               fullname="video_recorder.Tests.VideoRecorderTests.TestDumpCompressedVideo"
+                               methodname="TestDumpCompressedVideo" classname="video_recorder.Tests.VideoRecorderTests"
+                               runstate="Runnable" result="Failed" label="Error" duration="0.005173" asserts="0">
+                        <failure>
+                            <message>
+                                <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                            <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at Topq.Auto.VideoRecorder.VideoRecorder..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\VideoRecorder.cs:line 27
+   at video_recorder.Tests.VideoRecorderTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\VideoRecorderTests.cs:line 20]]></stack-trace>
+                        </failure>
+                    </test-case>
+                    <test-case id="0-1011" name="TestSaveCompressedVideo"
+                               fullname="video_recorder.Tests.VideoRecorderTests.TestSaveCompressedVideo"
+                               methodname="TestSaveCompressedVideo" classname="video_recorder.Tests.VideoRecorderTests"
+                               runstate="Runnable" result="Failed" label="Error" duration="0.001943" asserts="0">
+                        <failure>
+                            <message>
+                                <![CDATA[SetUp : System.IO.FileNotFoundException : c:/Program Files (x86)/ffmpeg/bin/ffmpeg.exe was not found. Please install it or specify the correct folder]]></message>
+                            <stack-trace><![CDATA[   at video_recorder.FfmpegWrapper..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\FfmpegWrapper.cs:line 56
+   at Topq.Auto.VideoRecorder.VideoRecorder..ctor(String ffmpegBinPath) in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Main\VideoRecorder.cs:line 27
+   at video_recorder.Tests.VideoRecorderTests.Setup() in C:\Users\Sanjay\Documents\nunit-selenim-project\Automation-Project\video-recorder\Tests\VideoRecorderTests.cs:line 20]]></stack-trace>
+                        </failure>
+                    </test-case>
+                </test-suite>
+            </test-suite>
+        </test-suite>
+    </test-suite>
+</test-run>

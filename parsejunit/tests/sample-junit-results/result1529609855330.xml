@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="335" it="0" lt="335" ct="291" ts="1529609855451" s="true" lb="Get Attachment" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="24" it="0" lt="24" ct="0" ts="1529609855794" s="true" lb="Get Attachment" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1529609855819" s="true" lb="Get Attachment" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="21" it="0" lt="21" ct="0" ts="1529609855841" s="true" lb="Get Attachment" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="20" it="0" lt="20" ct="0" ts="1529609855862" s="true" lb="Get Automation Job" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="23" it="0" lt="20" ct="0" ts="1529609855883" s="true" lb="Get Test Log" rc="200" rm="OK" tn="Access Api 1-1" dt="text" by="3894" sby="119" ng="1" na="2"/>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1529609855907" s="false" lb="Get Login" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: api.qasymphoy.com: nodename nor servname provided, or not known" tn="Access Api 1-1" dt="text" by="2355" sby="0" ng="1" na="2"/>
+<httpSample t="2939" it="0" lt="2919" ct="292" ts="1529609855450" s="true" lb="Get Software Testing Tools" rc="200" rm="OK" tn="Test Website 2-1" dt="text" by="100644" sby="185" ng="1" na="1"/>
+<httpSample t="935" it="0" lt="857" ct="465" ts="1529609858390" s="true" lb="Get Support Page" rc="200" rm="OK" tn="Test Website 2-1" dt="text" by="58420" sby="131" ng="1" na="1"/>
+<httpSample t="1902" it="0" lt="1805" ct="16" ts="1529609859327" s="true" lb="Get Sign In Page" rc="200" rm="OK" tn="Test Website 2-1" dt="text" by="940555" sby="241" ng="1" na="1"/>
+<httpSample t="1" it="0" lt="0" ct="1" ts="1529609861230" s="false" lb="Get Submit a Ticket Page" rc="Non HTTP response code: java.net.UnknownHostException" rm="Non HTTP response message: support.qsymphony.com: nodename nor servname provided, or not known" tn="Test Website 2-1" dt="text" by="2359" sby="0" ng="1" na="1"/>
+
+</testResults>

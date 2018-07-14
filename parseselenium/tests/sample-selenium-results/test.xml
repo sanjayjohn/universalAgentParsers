@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="32" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0"
+          asserts="1" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-06-12 13:08:40Z"
+          end-time="2018-06-12 13:09:05Z" duration="24.756776">
+    <command-line>
+        <![CDATA[nunit3-console  NTCEGRegressionTests.dll --test=NTCEGRegressionTests.Features.LoginToConnectFeature]]></command-line>
+    <filter>
+        <test>NTCEGRegressionTests.Features.LoginToConnectFeature</test>
+    </filter>
+    <test-suite type="Assembly" id="0-1064" name="NTCEGRegressionTests.dll"
+                fullname="C:\Users\wadkins\Source\Repos\Tests\bin\Debug\NTCEGRegressionTests.dll" runstate="Runnable"
+                testcasecount="32" result="Passed" start-time="2018-06-12 13:08:40Z" end-time="2018-06-12 13:09:05Z"
+                duration="24.262010" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1">
+        <environment framework-version="3.0.5813.39031" clr-version="4.0.30319.42000"
+                     os-version="Microsoft Windows NT 10.0.15063.0" platform="Win32NT"
+                     cwd="C:\Users\wadkins\Source\Repos\Tests\bin\Debug" machine-name="WD10319" user="wadkins"
+                     user-domain="CEG" culture="en-GB" uiculture="en-US" os-architecture="x64"/>
+        <settings>
+            <setting name="DisposeRunners" value="True"/>
+            <setting name="WorkDirectory" value="C:\Users\wadkins\Source\Repos\Tests\bin\Debug"/>
+            <setting name="ImageRuntimeVersion" value="4.0.30319"/>
+            <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2"/>
+            <setting name="ImageRequiresX86" value="False"/>
+            <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False"/>
+            <setting name="NumberOfTestWorkers" value="8"/>
+        </settings>
+        <properties>
+            <property name="_PID" value="9780"/>
+            <property name="_APPDOMAIN" value="domain-"/>
+        </properties>
+        <test-suite type="TestSuite" id="0-1065" name="NTCEGRegressionTests" fullname="NTCEGRegressionTests"
+                    runstate="Runnable" testcasecount="32" result="Passed" start-time="2018-06-12 13:08:40Z"
+                    end-time="2018-06-12 13:09:05Z" duration="24.255010" total="1" passed="1" failed="0"
+                    inconclusive="0" skipped="0" asserts="1">
+            <test-suite type="TestSuite" id="0-1066" name="Features" fullname="NTCEGRegressionTests.Features"
+                        runstate="Runnable" testcasecount="32" result="Passed" start-time="2018-06-12 13:08:40Z"
+                        end-time="2018-06-12 13:09:05Z" duration="24.254879" total="1" passed="1" failed="0"
+                        inconclusive="0" skipped="0" asserts="1">
+                <test-suite type="TestFixture" id="0-1028" name="LoginToConnectFeature"
+                            fullname="NTCEGRegressionTests.Features.LoginToConnectFeature"
+                            classname="NTCEGRegressionTests.Features.LoginToConnectFeature" runstate="Runnable"
+                            testcasecount="1" result="Passed" start-time="2018-06-12 13:08:40Z"
+                            end-time="2018-06-12 13:09:05Z" duration="24.253444" total="1" passed="1" failed="0"
+                            inconclusive="0" skipped="0" asserts="1">
+                    <properties>
+                        <property name="Category" value="mytag"/>
+                        <property name="Description" value="login to connect"/>
+                    </properties>
+                    <output><![CDATA[-> Using app.config
+]]></output>
+                    <test-case id="0-1029" name="Login"
+                               fullname="NTCEGRegressionTests.Features.LoginToConnectFeature.Login" methodname="Login"
+                               classname="NTCEGRegressionTests.Features.LoginToConnectFeature" runstate="Runnable"
+                               seed="866290569" result="Passed" start-time="2018-06-12 13:08:41Z"
+                               end-time="2018-06-12 13:09:05Z" duration="23.847582" asserts="1">
+                        <properties>
+                            <property name="Description" value="Login"/>
+                        </properties>
+                        <output><![CDATA[Given I am on the Connect home page
+-> done: LogIn.GivenIAmOnTheConnectHomePage() (0.4s)
+And I enter user name as
+-> done: LogIn.GivenIEnterUserNameAs() (0.1s)
+And I enter Password as
+-> done: LogIn.GivenIEnterPasswordAs() (3.1s)
+When I click on signIn
+-> done: LogIn.WhenIClickOnSignIn() (6.6s)
+Then I should see logged in user as
+CRM Test Account 4.....is my verification text of this test
+test pass
+-> done: LogIn.ThenIShouldSeeLoggedInUserAs() (7.1s)
+Given I am on navigate page
+User logged in to connect Home Page
+-> done: CatsLead.GivenIamOnConnectHomePage() (1.0s)
+]]></output>
+                    </test-case>
+                </test-suite>
+            </test-suite>
+        </test-suite>
+    </test-suite>
+</test-run>

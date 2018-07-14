@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="10.408" tests="43" errors="0" skipped="0" failures="13">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Sanjay\bamboo-home\xml-data\build-dir\SP-SP-JOB1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Sanjay\bamboo-home\xml-data\build-dir\SP-SP-JOB1"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sanjay\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_171\bin;C:\apache-maven-3.5.3\bin;C:\apache-jmeter-4.0\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NUnit.org\nunit-console;C:\Program Files (x86)\MSBuild\14.0\Bin;C:\nuget.exe;C:\Users\Sanjay\Downloads\chromedriver_win32\chromedriver.exe;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Google\Google Apps Sync\;C:\Program Files (x86)\Google\Google Apps Migration\;C:\Program Files\Git\cmd;C:\Users\Sanjay\AppData\Local\Programs\Python\Python36;C:\Users\Sanjay\AppData\Local\Programs\Python\Python36\Scripts;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Sanjay\AppData\Local\Microsoft\WindowsApps;C:\Users\Sanjay\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Sanjay"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Sanjay"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile package test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testAdd" classname="sample.FactoryImplTestAdd" time="0.004"/>
+  <testcase name="testAdd" classname="sample.FactoryImplTestAdd" time="0.012">
+    <failure message="expected [5] but found [4]" type="java.lang.AssertionError">java.lang.AssertionError: expected [5] but found [4]
+	at sample.FactoryImplTestAdd.testAdd(FactoryImplTestAdd.java:32)
+</failure>
+  </testcase>
+  <testcase name="testAdd" classname="sample.FactoryImplTestAdd" time="0.001"/>
+  <testcase name="testSubtract" classname="sample.FactoryImplTestSubtract" time="0"/>
+  <testcase name="testSubtract" classname="sample.FactoryImplTestSubtract" time="0">
+    <failure message="expected [2] but found [3]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [3]
+	at sample.FactoryImplTestSubtract.testSubtract(FactoryImplTestSubtract.java:33)
+</failure>
+  </testcase>
+  <testcase name="testDataProviderMethod" classname="sample.DataProviderTest" time="0.001"/>
+  <testcase name="testDataProviderMethod" classname="sample.DataProviderTest" time="0"/>
+  <testcase name="testDataProviderMethod" classname="sample.DataProviderTest" time="0"/>
+  <testcase name="testURLs" classname="sample.OpenBrowser" time="9.476"/>
+  <testcase name="testDivisionException" classname="sample.CalculatorTestSuccessful" time="0.001"/>
+  <testcase name="testDivison" classname="sample.CalculatorTestSuccessful" time="0.002"/>
+  <testcase name="testSubstraction" classname="sample.CalculatorTestSuccessful" time="0">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at sample.CalculatorTestSuccessful.testSubstraction(CalculatorTestSuccessful.java:73)
+</failure>
+  </testcase>
+  <testcase name="testSum" classname="sample.CalculatorTestSuccessful" time="0.001">
+    <failure message="expected [12] but found [7]" type="java.lang.AssertionError">java.lang.AssertionError: expected [12] but found [7]
+	at sample.CalculatorTestSuccessful.testSum(CalculatorTestSuccessful.java:38)
+</failure>
+    <system-out><![CDATA[----- START OF Verify function testSum in CalculatorTestSuccessful class -------------
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_001" classname="sample.WelcomeMessageTest" time="0.002"/>
+  <testcase name="testWelcomeMessagePage_002" classname="sample.WelcomeMessageTest" time="0.002">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_002(WelcomeMessageTest.java:45)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_002 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_002 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_003" classname="sample.WelcomeMessageTest" time="0.006"/>
+  <testcase name="testWelcomeMessagePage_004" classname="sample.WelcomeMessageTest" time="0.01">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_004(WelcomeMessageTest.java:68)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_004 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_004 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_005" classname="sample.WelcomeMessageTest" time="0.003"/>
+  <testcase name="testWelcomeMessagePage_006" classname="sample.WelcomeMessageTest" time="0.005">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_006(WelcomeMessageTest.java:91)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_006 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_006 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_007" classname="sample.WelcomeMessageTest" time="0.004"/>
+  <testcase name="testWelcomeMessagePage_008" classname="sample.WelcomeMessageTest" time="0.02">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_008(WelcomeMessageTest.java:114)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_008 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_008 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_009" classname="sample.WelcomeMessageTest" time="0.004"/>
+  <testcase name="testWelcomeMessagePage_010" classname="sample.WelcomeMessageTest" time="0.007">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_010(WelcomeMessageTest.java:137)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_010 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_010 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_011" classname="sample.WelcomeMessageTest" time="0.004"/>
+  <testcase name="testWelcomeMessagePage_012" classname="sample.WelcomeMessageTest" time="0.003">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_012(WelcomeMessageTest.java:160)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_012 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_012 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_013" classname="sample.WelcomeMessageTest" time="0.002">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_013(WelcomeMessageTest.java:172)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_013 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_013 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_014" classname="sample.WelcomeMessageTest" time="0.003"/>
+  <testcase name="testWelcomeMessagePage_015" classname="sample.WelcomeMessageTest" time="0.002"/>
+  <testcase name="testWelcomeMessagePage_016" classname="sample.WelcomeMessageTest" time="0.003"/>
+  <testcase name="testWelcomeMessagePage_017" classname="sample.WelcomeMessageTest" time="0.001">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_017(WelcomeMessageTest.java:217)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_017 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_017 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_018" classname="sample.WelcomeMessageTest" time="0.053"/>
+  <testcase name="testWelcomeMessagePage_019" classname="sample.WelcomeMessageTest" time="0.002"/>
+  <testcase name="testWelcomeMessagePage_020" classname="sample.WelcomeMessageTest" time="0.003">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at sample.WelcomeMessageTest.testWelcomeMessagePage_020(WelcomeMessageTest.java:251)
+</failure>
+    <system-out><![CDATA[------------------------------------------
+----testWelcomeMessagePage_020 -----------
+------------------------------------------
++++ Message from METHOD: testWelcomeMessagePage_020 +++
+]]></system-out>
+  </testcase>
+  <testcase name="testWelcomeMessagePage_021" classname="sample.WelcomeMessageTest" time="0"/>
+  <testcase name="testWelcomeMessagePage_022" classname="sample.WelcomeMessageTest" time="0.002"/>
+  <testcase name="testWelcomeMessagePage_023" classname="sample.WelcomeMessageTest" time="0.001"/>
+  <testcase name="testWelcomeMessagePage_024" classname="sample.WelcomeMessageTest" time="0.001"/>
+  <testcase name="testWelcomeMessagePage_025" classname="sample.WelcomeMessageTest" time="0.001"/>
+  <testcase name="testWelcomeMessagePage_026" classname="sample.WelcomeMessageTest" time="0.004"/>
+  <testcase name="testWelcomeMessagePage_027" classname="sample.WelcomeMessageTest" time="0.001"/>
+  <testcase name="testWelcomeMessagePage_028" classname="sample.WelcomeMessageTest" time="0.001"/>
+  <testcase name="testWelcomeMessagePage_029" classname="sample.WelcomeMessageTest" time="0.002"/>
+  <testcase name="testWelcomeMessagePage_030" classname="sample.WelcomeMessageTest" time="0.002"/>
+</testsuite>
